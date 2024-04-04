@@ -40,7 +40,7 @@ return (
             </div>
             <div className="text-slate-400 text-center mb-6">
                 {type == "signup" ? "Already have an account" : "Don't have an account"}
-                <Link className="pl-2 underline" to={type == "signup" ? "/signin" : "/signup"}>{type == "signup" ? "Login" : "Create new account"}</Link>
+                <Link className="pl-2 underline" to={type == "signup" ? "/signin" : "/"}>{type == "signup" ? "Login" : "Create new account"}</Link>
             </div>
             <div className="mb-2">
                 {type == "signup" ? <LabelledInput label="Name" placeholder="Adarsh Dhar..." onChange={(e) => {
