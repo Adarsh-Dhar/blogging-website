@@ -1,7 +1,6 @@
 import { BlogBody } from "../components/BlogBody";
 import { useBlog } from "../hooks";
 import { useParams } from "react-router-dom";
-import { BlogType } from "../hooks";
 
 export const Blog = () => {
     const { id } = useParams();
